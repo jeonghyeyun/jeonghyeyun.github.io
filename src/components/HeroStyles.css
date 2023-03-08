@@ -1,0 +1,89 @@
+h1 {
+    color: white;
+}
+.landing div:nth-child(1){
+    height: 90vh;
+}
+#profile {
+    width: 400px;
+}
+.name {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.name h1{
+    font-family: "Arsenica Trial";
+    font-weight: 300;
+    font-size: 14em;
+}
+.name h1:nth-child(1){
+    animation: myAnimation 3s ease-in-out infinite;
+    transform-style: preserve-3d;
+    will-change: filter, transform;
+}
+
+@keyframes myAnimation {
+0% {
+    transform: translate3d(-0.99432px, -1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.99716px);
+}
+25% {
+    transform: translate3d(-1px, 0.88732px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.01235px);
+    }
+50% {
+    transform: translate3d(0.71314px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.85657px);
+}
+75% {
+    transform: translate3d(0.38852px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.69426px);
+    }
+
+100% {
+    transform: translate3d(-1px, 0.99978px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.5px);
+    }
+}
+
+.name h1:nth-child(2){
+    font-size: 12em;
+    margin-top: -60px;
+    line-height: 1.15;
+}
+
+.about {
+    display: flex;
+    color: white;
+    font-family: "PPNeueMontreal-Book";
+
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 250px;
+}
+.about-col-1 {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 10rem;
+}
+
+.about-col-2 {
+    width: 50%;
+    margin-right: -10rem;
+}
+
+.about-col-1 p {
+    font-size: 30px;
+}
+
+.more-about {
+    color: white;
+    display: flex;
+    text-align: left;
+    width: 280px;
+    margin-left: 50px;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+}

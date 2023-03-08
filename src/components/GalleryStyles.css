@@ -1,0 +1,61 @@
+.carousel {
+    position: absolute;
+    top: 30%;
+    align-items: center;
+    justify-content: space-between;
+    perspective: 100rem;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel__cards {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    transform-style: preserve-3d;
+    transform: translateZ(calc(-25rem - ${deltaY}px));  
+    transition: transform 2s ease;
+  }
+
+  .carousel__card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .carousel__img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel__card:nth-child(1) {
+    transform: rotateY(0deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(2) {
+    transform: rotateY(51.4deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(3) {
+    transform: rotateY(102.9deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(4) {
+    transform: rotateY(154.3deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(5) {
+    transform: rotateY(205.7deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(6) {
+    transform: rotateY(257.1deg) translateZ(25rem);
+  }
+  .carousel__card:nth-child(7) {
+    transform: rotateY(308.5deg) translateZ(25rem);
+  }
+
+  .carousel__text {
+    font-family: "NeueMontreal-Regular";
+    font-size: 12px !important;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+  }
+  

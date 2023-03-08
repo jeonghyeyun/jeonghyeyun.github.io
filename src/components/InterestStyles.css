@@ -1,0 +1,56 @@
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .item {
+    padding-top: 100px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .item img {
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .item p {
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+  }
+  
+  button svg {
+    stroke: white;
+    stroke-width: 1.5;
+    transition: stroke 0.3s;
+  }
+  
+  button:hover svg {
+    transform: scale(1.2);
+  }
+  
+  button.liked {
+    fill: white;
+  }
+  
+  button.liked svg {
+    fill: white;
+  }
+  

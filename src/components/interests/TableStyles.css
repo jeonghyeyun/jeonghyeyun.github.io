@@ -1,0 +1,35 @@
+table.table {
+    background-color: transparent;
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top:-160px;
+    margin-bottom: 40px;
+  }
+  table.table td, table.table th {
+    padding: 15px 10px;
+  }
+  table.table tbody td {
+    font-size: 15px;
+  }
+  table.table thead {
+    background: transparent;
+    border-bottom: 1px solid #444444;
+  }
+  table.table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.table tfoot td {
+    font-size: 14px;
+  }
+tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }

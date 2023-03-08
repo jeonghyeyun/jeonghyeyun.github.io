@@ -1,0 +1,45 @@
+.music-box {
+    color: white;
+    font-family: "NeueMontreal-Regular";
+}
+.music-header {
+    background: rgb(74,37,17);
+    background: linear-gradient(180deg, rgba(74,37,17,1) 0%, rgba(51,32,21,1) 60%, rgba(32,26,23,1) 85%, rgba(0,0,0,1) 100%);
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+.music-header img {
+    width: 250px;
+    margin-right: 0px;
+}
+.head-col-1 {
+    margin: 80px 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.head-col-2 {  
+    display: inline-block;
+    flex: 1;
+}
+.head-col-2 h1 {
+    font-family: "NeueMontreal-Bold";
+    font-size: 100px;
+}
+.playlist {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -160px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+}
+.playlist div {
+    width: 80%;
+}
+.music-box hr {
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: -80px;
+}

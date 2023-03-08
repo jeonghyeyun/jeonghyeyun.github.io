@@ -1,0 +1,60 @@
+.project-box h1{
+    font-family: "Arsenica Trial";
+    font-weight: 300;
+    font-size: 4rem;
+}
+.discipline {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discipline img {
+    width: 50px;
+    position: relative;
+    left: 50px;
+    top: 3px;
+}
+
+.discipline h1:nth-child(3){
+    animation: myAnimation 3s ease-in-out infinite;
+    transform-style: preserve-3d;
+    will-change: filter, transform;
+}
+
+@keyframes myAnimation {
+0% {
+    transform: translate3d(-0.99432px, -1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.99716px);
+}
+25% {
+    transform: translate3d(-1px, 0.88732px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.01235px);
+    }
+50% {
+    transform: translate3d(0.71314px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.85657px);
+}
+75% {
+    transform: translate3d(0.38852px, 1px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.69426px);
+    }
+
+100% {
+    transform: translate3d(-1px, 0.99978px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    filter: blur(2.5px);
+    }
+}
+
+.selected {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.selected p {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 80px;
+}

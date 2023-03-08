@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+  color: #000;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  columns: #fff;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal-Bold";
+  src: url('./assets/fonts/PPNeueMontreal-Bold.otf');
+}
+@font-face {
+  font-family: "PPNeueMontreal-Book";
+  src: url('./assets/fonts/PPNeueMontreal-Book.otf');
+}
+@font-face {
+  font-family: "PPNeueMontreal-Italic";
+  src: url('./assets/fonts/PPNeueMontreal-Italic.otf');
+}
+@font-face {
+  font-family: "PPNeueMontreal-Medium";
+  src: url('./assets/fonts/PPNeueMontreal-Medium.otf');
+}
+@font-face {
+  font-family: "PPNeueMontreal-SemiBolditalic";
+  src: url('./assets/fonts/PPNeueMontreal-SemiBolditalic.otf');
+}
+@font-face {
+  font-family: "PPNeueMontreal-Thin";
+  src: url('./assets/fonts/PPNeueMontreal-Thin.otf');
+}
+@font-face {
+  font-family: "NeueMontreal-Medium";
+  src: url('./assets/fonts/NeueMontreal-Medium.otf');
+}
+@font-face {
+  font-family: "NeueMontreal-Regular";
+  src: url('./assets/fonts/NeueMontreal-Regular.otf');
+}
+@font-face {
+  font-family: "NeueMontreal-Light";
+  src: url('./assets/fonts/NeueMontreal-Light.otf');
+}
+@font-face {
+  font-family: "Floreal";
+  src: url('./assets/fonts/Floreal.otf');
+}
+@font-face {
+  font-family: "Floreal Italic";
+  src: url('./assets/fonts/Floreal-Italic.otf');
+}
+@font-face {
+  font-family: "Rallisaguen Regular";
+  src: url('./assets/fonts/Rallisaguen-Regular.otf');
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/arsenica-trial');
