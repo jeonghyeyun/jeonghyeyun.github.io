@@ -14,7 +14,6 @@
     width: 20rem;
     height: 20rem;
     transform-style: preserve-3d;
-    transform: translateZ(calc(-25rem - ${deltaY}px));  
     transition: transform 3s ease;
   }
 
