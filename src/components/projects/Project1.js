@@ -5,6 +5,7 @@ import Cover from '../../assets/images/nudm-mock.jpeg'
 import Prototype_3 from '../../assets/images/Prototype-3.png'
 import Prototype_2 from '../../assets/images/Prototype-2.png'
 import Trello from '../../assets/images/Trello.png'
+import NUDM from '../../assets/images/nudm-2023.JPG'
 
 const Project1 = () => {
     const handleCloseClick = () => {
@@ -16,7 +17,7 @@ const Project1 = () => {
             <h1>NUDM</h1>
         </div>
         <div className='right-scroll'>
-            <div className='pages'>
+            <div className='nudm-pages'>
                 <div>
                     <div className='cover-page'>
                         <p id='group'>NU DANCE MARATHON</p>
@@ -68,9 +69,17 @@ const Project1 = () => {
                                 <span className="underline">Communication</span> – Slack, ClickUp, Trello<br/>
                                 <span className="underline">Testing</span> – TestFlight
                             </p>
+                            <p><span className="subtitle" id="accomp" style={{ display: 'inline-block', paddingBottom: '10px' }}>Accomplishments</span><br/><br/>
+                                With my development team, I coded the screen for displaying individual events,
+                                which included fields such as event name, description, location, and people 
+                                attending (data retrieved from the Firebase database) and also 
+                                created a feature to RSVP for each event. After beta testing, we also
+                                took responsibility for making the error messages more informative during
+                                login and account creation.
+                            </p>
                         </div>
                         <div className='content-2'>
-                            <img src={Prototype_3} alt='' />
+                            <img id="prototype" src={Prototype_3} alt='' />
                             <img src={Prototype_2} alt='' />
                         </div>
                     </div>
@@ -79,18 +88,23 @@ const Project1 = () => {
                 <div>
                     <div className='description'>
                         <div className='content-1'>
-                            <p><span className="subtitle" style={{ display: 'inline-block', paddingBottom: '10px' }}>Summary</span><br/><br/>
-                            Northwestern University Dance Marathon (NUDM) 
-                            is one of the largest entirely student-run philanthropies 
-                            in the nation. This year, the primary beneficiary is 
-                            Little Heroes League, who provides free and continuous support 
-                            to medically-complex babies and their families. The long-standing
-                            second beneficiary is the Evanston Community Foundation.
+                            <p><span className="subtitle" style={{ display: 'inline-block', paddingBottom: '10px' }}>Challenges</span><br/><br/>
+                            At first, the agile method made it difficult for everyone to stay on top of
+                            tasks because we were constantly throwing our codes to the next team. This made
+                            it difficult to add functions on top of the existing code because we had to understand
+                            what the code was doing from the very first line. However, after many trial and errors,
+                            we adopted better practices to accommodate each team by writing descriptions every time
+                            we push to Git, requiring specific items for pull requests, and 
+                            utilizing project management tools such as Trello.
                             <br/><br/>
+                            My team also struggled with fixing the bug during the beta testing period.
+                            The login/account creation error was more complex than we had expected, so we had to
+                            search the code file thoroughly for specific functions to fix. At times, fixing one issue
+                            would lead to another issue, so it was a tedious debugging process.
                             </p>
                         </div>
                         <div className='content-2'>
-                            <p>hellohello</p>
+                            <img id='nudm' src={NUDM} alt='' />
                         </div>
                     </div>
                 </div>

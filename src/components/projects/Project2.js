@@ -17,7 +17,7 @@ const Project2 = () => {
             <h1>NUIT</h1>
         </div>
         <div className='right-scroll'>
-            <div className='pages'>
+            <div className='quest-pages'>
                 <div>
                     <div className='cover-page'>
                             <p id='group'>NU INFORMATION TECHNOLOGY</p>
@@ -28,24 +28,22 @@ const Project2 = () => {
                             <hr style={{ border: "1.2px solid black", marginTop: "-10px", marginBottom: "4px"}}/>
                             <div className='quest-col-1'>
                                 <p>
-                                    The research computing infrasturcture (RCI) team at Northwestern's 
+                                    The research computing infrastructure (RCI) team in Northwestern's 
                                     central IT department supports the research community through 
                                     sysadmin work for the <span data-tooltip="An HPC cluster consists of 
                                     ultra-fast supercomputers often used in large-scale research. 
                                     To compare its performance with an ordinary desktop or laptop would be like comparing 
                                     walking and flying."
                                     id='hpc'>high-performance computing (HPC)</span> cluster Quest.
-                                </p>
-                            </div>
-                            <div className='quest-col-2'>
-                                <p>
+                                    <br/><br/>
                                     Since June 2022, I worked directly with the team lead of RCI 
                                     on tasks that range from issuing node purchase tickets on 
                                     TeamDynamix's TDNext platform to writing setuid programs 
                                     in Unix to configure users on a shared network drive so 
                                     they can transfer data between Quest and Globus endpoint.
-                                    <br/><br/>
                                 </p>
+                            </div>
+                            <div className='quest-col-2'>
                                 <img src={Quest} alt='' />
                             </div>
                         </div>

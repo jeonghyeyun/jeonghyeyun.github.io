@@ -13,7 +13,7 @@ const Music = () => {
         <div className='head-col-2'>
             <p>Playlist</p>
             <h1>musik is life</h1>
-            <p>Hyeyun Jeong <strong>&middot;</strong> 5 songs</p>
+            <p>Hyeyun Jeong <strong>&middot;</strong> 8 songs</p>
         </div>
       </div>
       <Table />

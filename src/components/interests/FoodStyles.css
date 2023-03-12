@@ -1,0 +1,33 @@
+.bake {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.bake h1 {
+    font-family: "Arsenica Trial";
+    font-weight: 400;
+    font-size: 4em;
+}
+
+#more {
+    padding-top: 20px;
+    font-size: 2em;
+    padding-bottom: 80px;
+}
+
+.dish {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hover-text {
+    margin-right: 20px;
+}
+.manImg {
+    display: none;
+    width: 100px;
+}
+
+.hover-text:hover + .manImg {
+    display: block;
+}

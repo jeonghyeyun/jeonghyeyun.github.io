@@ -1,0 +1,52 @@
+.photo-page {
+    position: relative;
+}
+#photo-bg {
+    width: 100%;
+    height: 100vh;
+}
+.photo-row-1{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    transform: rotate(3deg);
+}
+.photo-row-1 img{
+    width: 172.5px;
+    padding-right: 0px;
+}
+
+.photo-row-2{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 420px;
+    right: 100px;
+    transform: rotate(1deg);
+}
+.photo-row-2 img{
+    width: 172.5px;
+    padding-right: 0px;
+}
+
+#film {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    transform: rotate(3deg);
+    z-index: 1;
+}
+
+#film2 {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    transform: rotate(1deg);
+    z-index: 1;
+}

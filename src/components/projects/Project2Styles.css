@@ -5,7 +5,39 @@
   position: relative;
   top: -29px;
 }
+.quest-pages div:nth-child(1) {
+  background: white;
+  background-image: url(https://grainy-gradients.vercel.app/noise.svg);
+  width: 95%;
+  height: 83vh;
+  margin: 0 auto;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 95% 100%, 0 100%);
+  border-radius: 20px 20px 0 20px;
+}
 
+.quest-pages div:nth-child(2) {
+  background: white;
+  background-image: url(https://grainy-gradients.vercel.app/noise.svg);
+  position: relative;
+  top: 10px;
+  width: 95%;
+  height: 95vh;
+  margin: 0 auto;
+  clip-path: polygon(0% 0%, 95% 0, 100% 5%, 100% 100%, 100% 100%, 5% 100%, 0 95%, 0 0);
+  border-radius: 20px 0 20px 0;
+}
+
+.quest-pages div:nth-child(3) {
+  background: white;
+  background-image: url(https://grainy-gradients.vercel.app/noise.svg);
+  position: relative;
+  top: 20px;
+  width: 95%;
+  height: 72vh;
+  margin: 0 auto;
+  clip-path: polygon(5% 0, 100% 0, 100% 0, 100% 93%, 95% 100%, 0 100%, 0 100%, 0 8%);
+  border-radius: 0 20px 0 20px; 
+}
 .quest-col-1, .quest-col-2 {
   font-family: "NeueMontreal-Medium";
   padding-top: 15px;
@@ -15,8 +47,9 @@
 
 .quest-col-1 {
   width: 60%;
-  padding-right: 50px;
-  padding-left: 70px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 0px;
   float: left;
 }
 
@@ -26,8 +59,9 @@
 }
 
 .quest-col-2 img {
-  padding-top: 10px;
+  padding-top: 0px;
   width: 240px;
+  border-radius: 4%;
 }
 
 #hpc {
@@ -80,15 +114,15 @@
 .quest-content-2 {
   position: relative;
   top: 36px !important;
-  left: 24px;
+  left: 5px;
 }
 .quest-description {
   font-family: "NeueMontreal-Medium";
-  padding: 40px 25px 20px 25px;
+  padding: 40px 0px 20px 25px;
   display: flex;
   text-align: justify;
   font-size: 11px;
-  height: 450px !important;
+  height: 425px !important;
 }
 
 .quest-description-2 {

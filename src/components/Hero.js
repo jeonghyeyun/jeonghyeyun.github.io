@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaDatabase, FaAsterisk, FaAccusoft, FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa'
 import './HeroStyles.css'
 import Profile from '../assets/images/portrait-me.jpg';
 
