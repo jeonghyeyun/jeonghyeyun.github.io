@@ -30,7 +30,7 @@ const Project3 = () => {
                     </div>
                 </div>
                 <div>
-                <div className='quest-description'>
+                <div className='gwc-description'>
                             <div className='content-1'>
                                 <p>
                                 The Girls Who Code (GWC) Summer Immersion Program (SIP) is a 2-week immersion program 
