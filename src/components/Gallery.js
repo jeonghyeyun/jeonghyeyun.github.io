@@ -1,9 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom'
 
-import nudmLP from '../assets/images/nudm-lp.png';
-import pic2 from '../assets/images/Album2.jpeg';
-import pic3 from '../assets/images/Album3.jpeg';
+import NUDM from '../assets/images/nudm-cover.jpeg';
+import NUIT from '../assets/images/nuit-cover.png';
+import GWC from '../assets/images/gwc-cover.jpeg';
+import CS from '../assets/images/coming-soon.jpg'
 import pic4 from '../assets/images/Album4.jpeg';
 import pic5 from '../assets/images/Album5.jpeg';
 import pic6 from '../assets/images/Album6.jpeg';
@@ -68,31 +69,31 @@ const Gallery = () => {
             {/*onWheel={handleWheel}> */}
               <div className="carousel__card">
                   <p className="carousel__text">DANCE MARATHON</p>
-                  <Link to='/Project1'><img className="carousel__img" src={nudmLP} alt="" /></Link>
+                  <Link to='/Project1'><img className="carousel__img" src={NUDM} alt="" /></Link>
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">INFORMATION TECHNOLOGY</p>
-                  <Link to='/Project2'><img className="carousel__img" src={pic2} alt="" /></Link>
+                  <Link to='/Project2'><img className="carousel__img" src={NUIT} alt="" /></Link>
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">GIRLS WHO CODE</p>
-                  <Link to='/Project3'><img className="carousel__img" src={pic3} alt="" /></Link>
+                  <Link to='/Project3'><img className="carousel__img" src={GWC} alt="" /></Link>
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">ALZHEIMER'S ML</p>
-                  <img className="carousel__img" src={pic4} alt="" />
+                  <img className="carousel__img" src={CS} alt="" />
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">BLAH 1</p>
-                  <img className="carousel__img" src={pic5} alt="" />
+                  <img className="carousel__img" src={CS} alt="" />
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">BLAH 2</p>
-                  <img className="carousel__img" src={pic6} alt="" />
+                  <img className="carousel__img" src={CS} alt="" />
               </div>
               <div className="carousel__card">
                   <p className="carousel__text">BLAH 3</p>
-                  <img className="carousel__img" src={pic7} alt="" />
+                  <img className="carousel__img" src={CS} alt="" />
               </div>
         </div>
         <div className="carousel__arrows">

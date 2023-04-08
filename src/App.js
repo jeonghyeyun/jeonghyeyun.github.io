@@ -16,17 +16,17 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Home />}/>
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/projects' element={<Projects />} />
-      <Route path='/interests' element={<Interests />} />
-      <Route path='/Project1' element={<Project1 />} />
-      <Route path='/Project2' element={<Project2 />} />
-      <Route path='/Project3' element={<Project3 />} />
-      <Route path='/Photo' element={<Photo />} />
-      <Route path='/Music' element={<Music />} />
-      <Route path='/Food' element={<Food />} />
-      <Route path='/Art' element={<Art />} />
+      <Route path='/jeonghyeyun.github.io' element={<Home />}/>
+      <Route path='/jeonghyeyun.github.io/contact' element={<Contact />} />
+      <Route path='/jeonghyeyun.github.io/projects' element={<Projects />} />
+      <Route path='/jeonghyeyun.github.io/interests' element={<Interests />} />
+      <Route path='/jeonghyeyun.github.io/Project1' element={<Project1 />} />
+      <Route path='/jeonghyeyun.github.io/Project2' element={<Project2 />} />
+      <Route path='/jeonghyeyun.github.io/Project3' element={<Project3 />} />
+      <Route path='/jeonghyeyun.github.io/Photo' element={<Photo />} />
+      <Route path='/jeonghyeyun.github.io/Music' element={<Music />} />
+      <Route path='/jeonghyeyun.github.io/Food' element={<Food />} />
+      <Route path='/jeonghyeyun.github.io/Art' element={<Art />} />
     </Routes>
     </>
   );
